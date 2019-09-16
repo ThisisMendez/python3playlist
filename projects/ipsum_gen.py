@@ -20,3 +20,4 @@ with open('ipsum.txt') as ipsum_orginal:
         with open('ninja_ipsum.txt', 'a') as ipsum_ninja: 
             ipsum_ninja.write(' '.join(ninja_text) +'\n\n')
 
+
